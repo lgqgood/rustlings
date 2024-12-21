@@ -1,6 +1,3 @@
-// Tests are important to ensure that your code does what you think it should
-// do.
-
 fn is_even(n: i64) -> bool {
     n % 2 == 0
 }
@@ -11,13 +8,16 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    // TODO: Import `is_even`. You can use a wildcard to import everything in
-    // the outer module.
+    // Import everything from the outer module.
+    use super::*;
 
     #[test]
     fn you_can_assert() {
-        // TODO: Test the function `is_even` with some values.
-        assert!();
-        assert!();
+        // Test the function `is_even` with some values.
+        assert!(is_even(2));  // 2 is even, should return true
+        assert!(!is_even(3)); // 3 is odd, should return false
+        assert!(is_even(0));  // 0 is even, should return true
+        assert!(is_even(-4)); // -4 is even, should return true
+        assert!(!is_even(-5)); // -5 is odd, should return false
     }
 }

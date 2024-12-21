@@ -1,5 +1,5 @@
-// TODO: Fix the compiler error without taking the macro definition out of this
-// module.
+// Use the #[macro_use] attribute to bring the macros module into scope
+#[macro_use]
 mod macros {
     macro_rules! my_macro {
         () => {
@@ -9,5 +9,6 @@ mod macros {
 }
 
 fn main() {
+    // Now you can call the macro since it is brought into scope
     my_macro!();
 }

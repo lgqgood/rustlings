@@ -1,5 +1,5 @@
-/home/gaotie/work/rust/rustlings/target/debug/deps/libgenerics2-c8d2f2a43199fc2a.rmeta: exercises/14_generics/generics2.rs
+/home/gaotie/work/exam-grading/rustlings/target/debug/deps/libgenerics2-c8d2f2a43199fc2a.rmeta: exercises/14_generics/generics2.rs
 
-/home/gaotie/work/rust/rustlings/target/debug/deps/generics2-c8d2f2a43199fc2a.d: exercises/14_generics/generics2.rs
+/home/gaotie/work/exam-grading/rustlings/target/debug/deps/generics2-c8d2f2a43199fc2a.d: exercises/14_generics/generics2.rs
 
 exercises/14_generics/generics2.rs:

@@ -1,5 +1,5 @@
-/home/gaotie/work/rust/rustlings/target/debug/deps/libstructs1-b73677b8c73fe730.rmeta: exercises/07_structs/structs1.rs
+/home/gaotie/work/exam-grading/rustlings/target/debug/deps/libstructs1-b73677b8c73fe730.rmeta: exercises/07_structs/structs1.rs
 
-/home/gaotie/work/rust/rustlings/target/debug/deps/structs1-b73677b8c73fe730.d: exercises/07_structs/structs1.rs
+/home/gaotie/work/exam-grading/rustlings/target/debug/deps/structs1-b73677b8c73fe730.d: exercises/07_structs/structs1.rs
 
 exercises/07_structs/structs1.rs:

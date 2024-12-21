@@ -1,16 +1,16 @@
-// Lifetimes are also needed when structs hold references.
-
-// TODO: Fix the compiler errors about the struct.
-struct Book {
-    author: &str,
-    title: &str,
+// Define the struct with lifetime parameters
+struct Book<'a> {
+    author: &'a str,
+    title: &'a str,
 }
 
 fn main() {
+    // Create an instance of the Book struct with references
     let book = Book {
         author: "George Orwell",
         title: "1984",
     };
 
+    // Print the book's title and author
     println!("{} by {}", book.title, book.author);
 }
